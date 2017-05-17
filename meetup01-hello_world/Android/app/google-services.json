@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "900025519333",
+    "firebase_url": "https://gdg-01.firebaseio.com",
+    "project_id": "gdg-01",
+    "storage_bucket": "gdg-01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900025519333:android:9150b511e2526919",
+        "android_client_info": {
+          "package_name": "br.com.designa.gdgdesigna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900025519333-62u4i7s28i9qja4ic054rij6in83csqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATJrwSXGEydrIyyLpV5j36H1uOJJ93VvQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

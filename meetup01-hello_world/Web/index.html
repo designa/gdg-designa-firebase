@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Firebase Hello World</title>
+</head>
+<body>
+	<h1 id="texto">Wait...</h1>
+	<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+	<script>
+		var config = {
+			apiKey: "AIzaSyBID1HTkqhZx_ZIIgnGlK8WlWGzHnxnOVM",
+			authDomain: "gdg-01.firebaseapp.com",
+			databaseURL: "https://gdg-01.firebaseio.com",
+			projectId: "gdg-01",
+			storageBucket: "gdg-01.appspot.com",
+			messagingSenderId: "900025519333"
+		};
+
+		firebase.initializeApp(config);
+
+		var database = firebase.database();
+		var listenerMessage = firebase.database().ref('mensagem');
+
+		listenerMessage.on('value', function(snapshot) {
+			document.getElementById('texto').innerText = snapshot.val();
+		});
+	</script>
+</body>
+</html>
